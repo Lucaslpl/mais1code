@@ -2,7 +2,6 @@
 
 // console.log('meu nome é ', nome)
 
-
 // variavel declarada com var
 // var nome = "Luciano"
 
@@ -31,9 +30,6 @@
 
 // meuNome()
 
-
-
-
 // variavel com const
 
 // const nome = "Luciano"
@@ -47,11 +43,9 @@
 
 // meuNome()
 
-
-
 //VARIAVEIS E TIPOS DE DADOS
 
-const nome = "Lucas"
+const nome = 'Lucas'
 // string
 
 const numero = 30
@@ -64,23 +58,20 @@ const produtoNaoEnviado = false
 const elemento = document.querySelector('h1')
 // elementos
 
-const frutas = ["banana", "maça", "perâ"] //arrays
+const frutas = ['banana', 'maça', 'perâ'] //arrays
 
 // console.log(frutas[1])
 
 // frutas.map(fruta => console.log(fruta)) // array
 
-//objeto 
+//objeto
 const pessoa = {
-    nome: "Lucas",
-    idade:27,
-    endereco:{
-    bairro:"Jardim Castelo",
-    cidade:"Ferraz de Vasconcelos"
+    nome: 'Lucas',
+    idade: 27,
+    endereco: {
+        bairro: 'Jardim Castelo',
+        cidade: 'Ferraz de Vasconcelos'
     }
-    }
-    
-    console.log(pessoa.bairro) // object
+}
 
-
-
+console.log(pessoa.bairro) // object
