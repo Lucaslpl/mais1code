@@ -75,4 +75,3 @@ const pessoa = {
 }
 
 console.log(pessoa.bairro) // object
-
