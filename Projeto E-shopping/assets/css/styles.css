@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--inter);
+}
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --dm-sans: 'DM Sans', sans-serif;
+    --inter: 'Inter', sans-serif;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+nav.contacts {
+    background: #0e0e0e;
+    padding: 15px 0;
+}
+
+nav.contats .col-md-6 img {
+    margin-right: 5px;
+}
+
+nav.contacts .col-md-2 img {
+    margin: 0 9px;
+}
+
+nav.contacts span {
+    color: #fff;
+}
+
+#navbarSupportedContent .navbar-nav {
+    width: 600px;
+}
+
+#navbarSupportedContent .form-inline .navbar-nav {
+    width: 341px;
+}
+
+/* banner */
+#banner {
+    background: url(../images/background-principal.jpeg);
+    height: 372px;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    /* filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25)); */
+    box-shadow: 0 2px 5px #aaa;
+}
+
+/* FEATURE */
+
+#features {
+    margin: 60px 0;
+}
+
+#feature .description {
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 500;
+}
+
+.feature p {
+    font-size: 14px;
+    font-family: var(--poppins);
+}
+
+/* ==============CATEGORIES======== */
+
+.name-category {
+    position: absolute;
+    top: 10px;
+    left: 28px;
+    z-index: 10;
+}
+
+.name-category h4 {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.name-category a {
+    font-family: var(--poppins);
+    text-decoration: none;
+
+    border-bottom: 2px solid #0e0e0e;
+    color: #0e0e0e;
+    transition: all ease-in 0.3s;
+}
+
+.name-category a:hover {
+    border-bottom: 2px solid #13c6b0;
+    color: #13c6b0;
+}
+
+/* =============TOP====SALES======== */
+
+#top-sales {
+    text-align: center;
+    margin: 56px 0;
+    font-family: var(--poppins);
+    font-size: 18px;
+}
+
+#top-sales .top-sales-title {
+    font-size: 24px;
+}
+
+#top-sales .top-sales-subtitle {
+    font-size: 36px;
+    font-weight: 500;
+}
+/* ============SHELF====================*/
+
+.product {
+    font-family: var(--poppins);
+}
+
+.product .flag {
+    position: absolute;
+    top: 15px;
+}
+
+.product .wishlist {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product .wishlist img {
+    margin: 3px 0;
+}
+
+.product .product-details .product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.product .rates,
+.product .price {
+    display: flex;
+    align-items: flex-start;
+}
+
+.product .rates img {
+    margin: 5px 15px 0 0;
+}
+
+.product .rates p {
+    color: #d0d0d0;
+    margin-bottom: 0.5rem;
+}
+
+.product .price .preco-de {
+    margin-right: 15px;
+    color: #969696;
+    text-decoration: line-through;
+}
+
+/* banner-voucher */
+
+#banner-voucher {
+    margin: 56px 0;
+    color: #fff;
+}
+
+#banner-voucher .container {
+    background: url(../images/prateleira/banner-2-.jpg);
+}
+
+#banner-voucher .container .row {
+    height: 288px;
+}
+
+#banner-voucher h3 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* DEAL OF THE DAY */
+
+#deal-of-the-day {
+    margin: 56px 0;
+}
+
+#deal-of-the-day h4 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 56px;
+}
+
+#deal-of-the-day .rates,
+#deal-of-the-day .price,
+#deal-of-the-day .buttons {
+    gap: 10px;
+}
+
+#deal-of-the-day .buttons .btn + .btn {
+    margin-left: 10px;
+}
+
+/* OUR-PARTNESS */
+
+.our-partness-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #313131;
+}
+
+.our-partness-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #171717;
+}
+
+/* MARCAS========= */
+
+.col-md-8 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+/* COMMENTS=====*/
+
+#comments {
+    background: #e4e4e4;
+    border: 1px solid #d0d0d0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+#comments .slick-prev {
+    left: -70px;
+    top: 134px;
+}
+
+#comments .slick-next {
+    top: 134px;
+    right: -70px;
+}
+
+/* FOOTER-FINAL */
+
+footer {
+    background: #1e2833;
+}
+
+.final h5 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height */
+
+    letter-spacing: -0.3px;
+
+    color: #ffffff;
+}
+
+.final h6 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.231818px;
+
+    color: #ffd2dd;
+
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.final input[type='email'] {
+    width: 100%;
+    background: transparent;
+}
+
+.final ::placeholder {
+    font-size: 15px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.final button {
+    background: none;
+    border: none;
+    /* background: #1e2833; */
+    padding-bottom: 16px;
+}
+
+.final a {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    padding: 10px 10px;
+    /* identical to box height */
+
+    letter-spacing: -0.204545px;
+
+    color: #ffffff;
+}

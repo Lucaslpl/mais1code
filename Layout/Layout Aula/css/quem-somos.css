@@ -1,0 +1,179 @@
+/*quem somos*/
+
+img {
+  max-width: 100%;
+}
+
+/*banner*/
+#banner-quem-somos,
+#banner-contato {
+  background: url(../imagens/fundo-quem-somos.jpg) no-repeat;
+  height: 614px;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0px 3px 0px #000;
+}
+
+#banner-quem-somos .content {
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner-quem-somos .title-h1 {
+  display: flex;
+  height: 560px;
+  align-items: center;
+}
+
+#banner-quem-somos h1 {
+  display: block;
+  text-align: center;
+  background: var(--red);
+  color: #fff;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 70px;
+  height: 72px;
+  width: 100%;
+  padding: 10px 0px;
+  box-shadow: 0px 3px 5px #000;
+}
+
+/*somos-marca*/
+#somos-marca {
+  padding: 112px 0;
+}
+
+#somos-marca .img-somos {
+  width: 550px;
+}
+
+.content-marca {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+#somos-marca h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#somos-marca span {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.marca-cor {
+  color: var(--red);
+}
+
+.content-marca p {
+  color: #aaa;
+  line-height: 2;
+  border-left: 1px solid #eee;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+/*negocios-parceria-solution*/
+#nps {
+  background: var(--red);
+  box-shadow: 0px 1px 5px #000;
+  color: #fff;
+  padding: 80px 0;
+}
+
+#nps h2 span {
+  display: block;
+  font-size: 120px;
+}
+
+#nps .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topicos {
+  width: 300px;
+}
+
+#nps h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#nps p {
+  font-weight: 400;
+  /* font-size: 20px; */
+  text-align: center;
+  line-height: 2;
+  margin: 5px;
+  padding: 20px;
+}
+
+/*nossa-equipe*/
+#nossa-equipe {
+  padding: 80px 0;
+}
+
+#nossa-equipe h3 span {
+  display: block;
+  font-size: 100px;
+  text-align: center;
+  color: #000;
+}
+
+#nossa-equipe h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--red);
+}
+
+#nossa-equipe .content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 50px;
+}
+
+.time h4 {
+  color: var(--red);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.time p {
+  text-align: center;
+  color: rgb(32, 29, 29);
+}
+
+/*footer*/
+
+footer {
+  background: var(--red);
+  padding: 30px 0;
+}
+
+footer p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+footer .social-media a {
+  font-size: 30px;
+  color: #000;
+}

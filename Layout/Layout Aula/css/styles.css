@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+:root {
+  --gray: #222;
+  --red: #f25858;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content.column {
+  flex-direction: column;
+}
+
+/* header */
+header {
+  background: #222;
+  padding: 10px 0;
+  box-shadow: 0 5px 5px #000;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  height: 43px;
+}
+
+nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+nav a:hover {
+  color: #f25858;
+}
+
+/* banner */
+#banner,
+#banner-contato {
+  background: url(../imagens/fundo-home.jpg) no-repeat bottom;
+  height: 614px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#banner .content {
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  text-shadow: 0px 0px 3px #222;
+}
+
+/* saiba+ (link) */
+.more {
+  background: #202322;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 180px;
+  /* height: 50px; */
+  margin: 55px;
+  padding: 8px 25px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 30px;
+  box-shadow: 3px 3px 5px #000;
+}
+
+#banner span {
+  color: #a34847;
+  font-size: 36px;
+  font-weight: 600;
+}
+/* cor do + - #a34847 */
+
+/* quem somos */
+#quem-somos {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#quem-somos .content {
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  color: #8a8a8a;
+}
+
+#quem-somos h2 {
+  padding: 30px;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+#quem-somos p {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
+  padding: 30px;
+  width: 70%;
+}
+
+#quem-somos span {
+  color: #a34847;
+  font-size: 36px;
+  font-weight: 600;
+}
+/* cor da fonte quem somos #8a8a8a */
+
+/* portfolio */
+
+#portfolio {
+  background: var(--gray);
+  padding: 80px 0;
+}
+
+#portfolio h3,
+#videos h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+#portfolio .content {
+  flex-wrap: wrap;
+}
+
+#portfolio img {
+  padding: 10px 5px;
+  background: #fff;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+#portfolio a:hover img {
+  opacity: 1;
+}
+
+#portfolio .all-works {
+  display: block;
+  background: var(--red);
+  text-align: center;
+  color: #d8d8d8;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 40px;
+  padding: 35px 0;
+  box-shadow: 0px 5px 5px #000;
+}
+
+#portfolio .all-works:hover {
+  color: var(--red);
+  background: #fff;
+}
+
+/* videos */
+#videos {
+  padding: 80px 0;
+}
+
+#videos .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 45%;
+}
+
+#videos h4 {
+  color: #aaa;
+}
+
+#videos h5 {
+  color: var(--red);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 100%;
+}
+
+#videos p {
+  color: #aaa;
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 2;
+}
+
+#videos .more {
+  margin-top: 0;
+}
+
+#videos span {
+  color: #a34847;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/*footer*/
+
+footer {
+  background: var(--red);
+  padding: 30px 0;
+}
+
+footer p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+footer .social-media a {
+  font-size: 30px;
+  color: #000;
+}
+
+/*-------------------------contatos------------------------*/
+
+#banner-contato {
+  background: url(../imagens/fundo-contato.jpg);
+}
+
+#banner-contato .container-title {
+  height: 614px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  box-shadow: 0 5px 5px #222;
+}
+
+#banner-contato h1 {
+  background: var(--red);
+  /* background: rgba(red, green, blue, alpha); */
+  color: white;
+
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+/* formulario */
+.contato .content {
+  padding-block: 116px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contato .formulario {
+  border-right: 1px solid #222;
+  padding-right: 150px;
+}
+
+.contato h2 {
+  font-size: 45px;
+  padding-bottom: 5px;
+}
+
+.contato h2 span {
+  color: var(--red);
+}
+
+.contato form label {
+  display: block;
+}
+
+.contato form {
+  margin-top: 10px;
+}
+
+.contato form input,
+textarea {
+  width: 100%;
+  resize: none;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: #d8d8d8;
+  border: none;
+}
+
+.contato form button {
+  width: 100%;
+  background: var(--red);
+  border: 1px solid var(--red);
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+
+  padding: 5px;
+  border-radius: 10px 0;
+}
+
+.contato form button:hover {
+  background: #000;
+}
+
+.contatos-redes .redes-sociais {
+  padding-block: 30px;
+}
+
+.contatos-redes .redes-sociais i {
+  font-size: 35px;
+}
+
+.contatos-redes .redes-sociais a {
+  font-size: 22px;
+  /* list-style: none; */
+  text-decoration: none;
+  color: #000;
+}
+
+.contatos-redes .contato-pessoal a {
+  display: block;
+  font-size: 22px;
+  /* list-style: none; */
+  text-decoration: none;
+  color: #000;
+  margin-block: 32px;
+}
+
+.contatos-redes .contato-pessoal i {
+  font-size: 35px;
+}
+
+/* ==================MAP-LOCALIZACAO=========== */
+
+.map h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.map h2 span {
+  color: var(--red);
+}
+
+.map iframe {
+  margin-bottom: 120px;
+}
+
+/*============RESPONSIVO=========*/
+
+@media (max-width: 760px) {
+  header {
+    background: var(--red);
+  }
+  header h1 {
+    color: black;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    background: #aaa;
+  }
+  .content {
+    flex-direction: column;
+  }
+}
